@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--cream);
+  }
+  
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: var(--hi);
+    text-align: center;
+    padding: 24px 24px;
+    text-decoration: none;
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 20px;
+    text-underline-offset: 3px; 
+}

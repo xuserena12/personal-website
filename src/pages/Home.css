@@ -1,0 +1,59 @@
+.lightblue {
+    color: var(--lightblue);
+}
+
+.darkblue {
+    color: var(--darkblue);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.lightblue, .darkblue, .purple {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    box-sizing: border-box; 
+    padding-left: 50px;
+}
+
+.introduction-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 30vh;
+    padding-left: 16vh;
+
+}
+
+.hello-container {
+    text-align: left;
+}
+
+.hello-text {
+    margin: 0;
+}
+
+.intro {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+    max-width: 600px;
+    font-weight: 500;
+}
+
+.blog {
+    font-style: italic;
+}
+
