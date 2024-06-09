@@ -5,3 +5,8 @@
     --purple: #8A81AF;
     --darkgrey: #404040;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
