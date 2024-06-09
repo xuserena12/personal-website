@@ -1,18 +1,10 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: var(--cream);
-  }
-  
 li {
     float: right;
 }
 
 li a {
     display: block;
-    color: var(--hi);
+    color: var(--darkgrey);
     text-align: center;
     padding: 24px 24px;
     text-decoration: none;
@@ -20,4 +12,67 @@ li a {
     text-decoration: underline;
     font-size: 18px;
     text-underline-offset: 3px; 
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 10px;
+    z-index: 2;
+    margin: 0 2%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+.menu-items a {
+    color: var(--darkgrey);
+}
+
+.menu-btn {
+    max-width: 30px;
+    max-height: 30px;
+    width: auto;
+    height: auto;
+    display: none;
+}
+
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 11px;
+        z-index: 3;
+    }
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background: var(--purple);
+        padding: 20px 30px;
+    }
 }

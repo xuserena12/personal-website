@@ -1,0 +1,48 @@
+.blog {
+    font-style: italic;
+}
+
+.lightblue {
+    color: var(--lightblue);
+}
+
+.darkblue {
+    color: var(--darkblue);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.lightblue, .darkblue, .purple {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 290px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.description {
+    text-align: left;
+    font-size: 20px;
+    color: var(--darkgrey);
+    margin-bottom: 52px;
+}
+
