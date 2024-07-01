@@ -1,16 +1,15 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import '../assets/styles/styles.css';
+import '../../assets/styles/styles.css';
 import { useState } from "react";
-import menuIcon from "../assets/images/menuIcon.png";
-import closeIcon from "../assets/images/closeIcon.png";
+import menuIcon from "../../assets/images/menuIcon.png";
+import closeIcon from "../../assets/images/closeIcon.png";
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const menuItems = "menu-items";
     const menuIsOpen = "menu-open";
-
 
     return (
         <nav className="navbar">

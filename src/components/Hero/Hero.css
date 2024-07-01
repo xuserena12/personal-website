@@ -25,11 +25,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 290px;
+    margin-top: 42vh;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
     gap: 50px;
+
 }
 
 .content {
@@ -46,3 +47,22 @@
     margin-bottom: 52px;
 }
 
+.hero-image {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .hero-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .content {
+        align-items: center;
+        text-align: center;
+    }
+}

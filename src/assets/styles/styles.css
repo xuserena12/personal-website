@@ -1,9 +1,10 @@
 :root {
-    --cream: #FFFAF5;
+    --cream: #fefbf8;
     --lightblue: #859FC7;
     --darkblue: #5376AB;
     --purple: #8A81AF;
     --darkgrey: #404040;
+    --babyblue: #F7F7F7;
 }
 
 * {

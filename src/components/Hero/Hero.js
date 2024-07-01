@@ -18,7 +18,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <p className="hero-image">
-                    Image will go herehfjshdjshdsjhdsjhdsjhfdjhdsjfhdjshfsjhdsjfhsfdjhdsjfhjfshdjhfdshfdjshfsdjhsjsfhjdshfjsd
+                    Image will go herehfj
                 </p>
         </section>
     );
