@@ -1,28 +1,33 @@
 import './Projects.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import SunnySideDiariesCover from '../../assets/images/sunnysidediaries.png';
+import MrAxolytlCover from '../../assets/images/mraxolotyl.jpg';
+import BlissCover from '../../assets/images/bliss.png';
+import ClientDexCover from '../../assets/images/clientdex.png';
+
 
 const projectsList = [
     {
         "title": "Sunny Side Diaries",
-        "imageSrc": "temp",
+        "imageSrc": SunnySideDiariesCover,
         "technologies": ["React", "Express", "MongoDB"],
         "source": "https://github.com/xuserena12/sunny-side-diaries"
     },
     {
         "title": "Mr. Axolotyl",
-        "imageSrc": "temp",
-        "technologies": ["Flask, JavaScript"],
+        "imageSrc": MrAxolytlCover,
+        "technologies": ["Flask", "JavaScript"],
         "source": "https://github.com/Celeste04/MrAxolotl"
     },
     {
         "title": "Bliss",
-        "imageSrc": "temp",
-        "technologies": ["Taipy, Python"],
+        "imageSrc": BlissCover,
+        "technologies": ["Taipy", "Python"],
         "source": "https://github.com/prestonty/bliss"
     },
     {
         "title": "ClientDex",
-        "imageSrc": "temp",
+        "imageSrc": ClientDexCover,
         "technologies": ["Flask", "React", "MongoDB"],
         "source": "https://github.com/syfxie/ClientDex"
     }

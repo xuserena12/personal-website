@@ -1,8 +1,8 @@
 .project-container {
     margin-top: 10vh;
+    margin-bottom: 10vh;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10vh;
 }
 
 .projects {
@@ -17,11 +17,6 @@
 
 
 @media (max-width: 1200px) {
-    .project-container {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
     .projects {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -30,11 +25,6 @@
 }
 
 @media (max-width: 768px) {
-    .project-container {
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-
     .projects {
         grid-template-columns: 1fr; 
         justify-items: center;

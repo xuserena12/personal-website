@@ -26,11 +26,11 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 42vh;
+    margin-bottom: 36vh;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
     gap: 50px;
-
 }
 
 .content {

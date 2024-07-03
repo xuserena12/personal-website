@@ -5,20 +5,65 @@
     width: 36vw;
     height: 30vh;
     background-color: var(--babyblue);
+
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+    align-items: center;
 }
 
 .title {
+    display: flex;
     text-align: left;
-    margin-top: 14px;
     margin-left: 8px;
     font-size: 18px;
+    font-weight: 500px;
     color: var(--darkgrey);
-    font-weight:500px;
 }
+
+.tab {
+    padding: 4px 8px;
+    border-radius: 5px;
+    /* background-color: blue; */
+    display: inline-block;
+    color: white;
+}
+
+.tab-light-blue {
+    background-color: var(--lightblue);
+}
+
+.tab-dark-blue {
+    background-color: var(--darkblue);
+}
+
+.tab-purple {
+    background-color: var(--purple);
+}
+
+
 
 @media (max-width: 1200px) {
     .project-card-container {
-        width: 80vw;
+        width: 55vw;
         height: 28vh;
+    }
+
+    .info {
+        width: 55vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-card-container {
+        width: 70vw;
+        height: 28vh;
+    }
+
+    .info {
+        width: 70vw;
     }
 }
