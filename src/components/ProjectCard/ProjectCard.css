@@ -9,14 +9,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card-container:hover {
+    animation: softBounce 3s infinite;
+}
+
+@keyframes softBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .project-card-container img {
-    width: 110%; /* Increase width slightly to zoom out */
-    height: 110%; /* Increase height slightly to zoom out */
-    object-fit: cover; /* Ensure the image covers the container */
-    object-position: center; /* Center the image */
-    border-radius: 18px; /* Maintain rounded corners */
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 18px;
 }
 
 .info {
