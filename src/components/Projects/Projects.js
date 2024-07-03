@@ -1,7 +1,7 @@
 import './Projects.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import SunnySideDiariesCover from '../../assets/images/sunnysidediaries.png';
-import MrAxolytlCover from '../../assets/images/mraxolotyl.jpg';
+import MrAxolytlCover from '../../assets/images/mraxolotyl.png';
 import BlissCover from '../../assets/images/bliss.png';
 import ClientDexCover from '../../assets/images/clientdex.png';
 

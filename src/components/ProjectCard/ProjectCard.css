@@ -1,11 +1,22 @@
 .project-card-container {
     border: 1px solid var(--lightblue);
     border-radius: 18px;
-    padding: 100px;
+    padding: 0;
     width: 36vw;
-    height: 30vh;
+    height: 34vh;
     background-color: var(--babyblue);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.project-card-container img {
+    width: 110%; /* Increase width slightly to zoom out */
+    height: 110%; /* Increase height slightly to zoom out */
+    object-fit: cover; /* Ensure the image covers the container */
+    object-position: center; /* Center the image */
+    border-radius: 18px; /* Maintain rounded corners */
 }
 
 .info {
@@ -16,18 +27,16 @@
 }
 
 .title {
-    display: flex;
     text-align: left;
     margin-left: 8px;
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
     color: var(--darkgrey);
 }
 
 .tab {
     padding: 4px 8px;
     border-radius: 5px;
-    /* background-color: blue; */
     display: inline-block;
     color: white;
 }
@@ -43,8 +52,6 @@
 .tab-purple {
     background-color: var(--purple);
 }
-
-
 
 @media (max-width: 1200px) {
     .project-card-container {
