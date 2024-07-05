@@ -5,7 +5,6 @@ import MrAxolytlCover from '../../assets/images/mraxolotyl.png';
 import BlissCover from '../../assets/images/bliss.png';
 import ClientDexCover from '../../assets/images/clientdex.png';
 
-
 const projectsList = [
     {
         "title": "Sunny Side Diaries",
@@ -31,7 +30,7 @@ const projectsList = [
         "technologies": ["Flask", "React", "MongoDB"],
         "source": "https://github.com/syfxie/ClientDex"
     }
-]
+];
 
 export default function Projects() {
     return (
@@ -48,4 +47,3 @@ export default function Projects() {
         </section>
     );
 }
-
