@@ -1,3 +1,4 @@
+import React, { useEffect, useRef } from 'react';
 import './Projects.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import SunnySideDiariesCover from '../../assets/images/sunnysidediaries.png';
@@ -33,8 +34,34 @@ const projectsList = [
 ];
 
 export default function Projects() {
+    const projectContainerRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        if (projectContainerRef.current) {
+            observer.observe(projectContainerRef.current);
+        }
+
+        return () => {
+            if (projectContainerRef.current) {
+                observer.unobserve(projectContainerRef.current);
+            }
+        };
+    }, []);
+
     return (
-        <section className="project-container" id="projects">
+        <section className="project-container" id="projects" ref={projectContainerRef}>
             <div className="projects">
                 {projectsList && projectsList.length > 0 ? (
                     projectsList.map((project, id) => (

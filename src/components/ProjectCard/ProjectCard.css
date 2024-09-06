@@ -105,3 +105,9 @@
     cursor: pointer;
     text-underline-offset: 3px;
 }
+
+@media (max-width: 768px) {
+    .tab-light-blue, .tab-dark-blue, .tab-purple {
+        display: none;
+    }
+}
