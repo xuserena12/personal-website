@@ -20,7 +20,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-info">
-                <p className="contact-text">Same time, next year?</p>
+                <p className="contact-text">Let's Connect!</p>
                 <div className="contact-icons">
                     <a href="https://github.com/xuserena12" target="_blank" rel="noopener noreferrer">
                         <FaGithub />
