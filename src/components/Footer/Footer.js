@@ -9,7 +9,7 @@ import { IoMdMail } from "react-icons/io";
 
 export default function Footer() {
     return (
-        <div>
+        <div id="contact">
             <div className="footer-container">
                 <div className="divider-wrapper">
                     <hr className="divider" />

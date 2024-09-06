@@ -2,28 +2,33 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import '../../assets/styles/styles.css';
 import { useState } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
-    const [menuOpen, setMenuOpen] = useState(false);
-
-    const menuItems = "menu-items";
-    const menuIsOpen = "menu-open";
+    const [menuOpen, setMenuOpen] = useState(false); // State to control menu visibility
 
     return (
         <nav className="navbar">
             <div className="menu">
-                <img
-                className="menu-btn"
-                alt="menu-button"
+                {/* Hamburger menu icon */}
+                <RxHamburgerMenu
+                    className="menu-btn"
+                    onClick={() => setMenuOpen(!menuOpen)} // Toggle menu state
+                    size={30} // Icon size
+                    aria-label="Toggle menu"
                 />
-                <ul className={`${menuItems} ${menuOpen && menuIsOpen}`}
-                onClick={() => setMenuOpen(false)}
+                <ul
+                    className={`menu-items ${menuOpen ? 'menu-open' : ''}`}
+                    onClick={() => setMenuOpen(false)}
                 >
                     <li>
-                        <Link to="/">Projects</Link>
+                        <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
                     </li>
                     <li>
-                        <Link to="/">Contact</Link>
+                        <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+                    </li>
+                    <li>
+                        <a href="#blog" onClick={() => setMenuOpen(false)}>Blog</a>
                     </li>
                 </ul>
             </div>

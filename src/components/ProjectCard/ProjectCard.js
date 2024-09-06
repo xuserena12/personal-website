@@ -9,7 +9,9 @@ export default function ProjectCard({ project }) {
                 <img src={project.imageSrc} alt={project.title} className="project-image" />
             </div>
             <div className="info">
-                <p className="title">{project.title}</p>
+                <a href={project.source} className="title" target="_blank" rel="noopener noreferrer">
+                    {project.title}
+                </a>
                 {project.technologies.map((tag, index) => (
                     <div key={index} className={`tab ${colors[index % colors.length]}`}>
                         {tag}

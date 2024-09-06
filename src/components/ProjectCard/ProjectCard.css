@@ -56,6 +56,7 @@
     font-weight: 500;
     color: var(--darkgrey);
     width: auto;
+    text-decoration: none;
 }
 
 .tab {
@@ -97,4 +98,10 @@
     .info {
         width: 55vw;
     }
+}
+
+.title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-underline-offset: 3px;
 }

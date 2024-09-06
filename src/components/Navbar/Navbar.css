@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     position: relative;
     display: flex;
@@ -8,15 +12,22 @@
     margin: 0 2%;
 }
 
-
 .menu {
     display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
 }
 
 .menu-items {
     display: flex;
     gap: 5px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-items a {
@@ -24,14 +35,34 @@
     font-weight: 300;
     font-size: 18px;
     padding: 24px 24px;
-    text-underline-offset: 3px; 
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
-.menu-btn {
-    max-width: 30px;
-    max-height: 30px;
-    width: auto;
-    height: auto;
-    display: none;
-}
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
 
+    .menu-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        height: 180px;
+        padding: 10px 0;
+        z-index: 10;
+        border-radius: 8px;
+    }
+
+    .menu-open {
+        display: flex;
+    }
+
+    .menu-items li {
+        margin: 10px 0;
+    }
+}
