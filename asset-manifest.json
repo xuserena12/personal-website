@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.06c47980.css",
-    "main.js": "/personal-website/static/js/main.58c157c9.js",
-    "static/media/headshot.png": "/personal-website/static/media/headshot.686485ab670a0324d5a7.png",
-    "static/media/sunnysidediaries.png": "/personal-website/static/media/sunnysidediaries.a67939441fe560d2b48d.png",
-    "static/media/bliss.png": "/personal-website/static/media/bliss.cfcf85ae7af1f22cbdfe.png",
-    "static/media/mraxolotyl.png": "/personal-website/static/media/mraxolotyl.f7c640a69cd9e1754dec.png",
-    "static/media/clientdex.png": "/personal-website/static/media/clientdex.8781a0634d8aacfcc19f.png",
-    "index.html": "/personal-website/index.html",
-    "main.06c47980.css.map": "/personal-website/static/css/main.06c47980.css.map",
-    "main.58c157c9.js.map": "/personal-website/static/js/main.58c157c9.js.map"
+    "main.css": "/static/css/main.06c47980.css",
+    "main.js": "/static/js/main.70c64d69.js",
+    "static/media/headshot.png": "/static/media/headshot.686485ab670a0324d5a7.png",
+    "static/media/sunnysidediaries.png": "/static/media/sunnysidediaries.a67939441fe560d2b48d.png",
+    "static/media/bliss.png": "/static/media/bliss.cfcf85ae7af1f22cbdfe.png",
+    "static/media/mraxolotyl.png": "/static/media/mraxolotyl.f7c640a69cd9e1754dec.png",
+    "static/media/clientdex.png": "/static/media/clientdex.8781a0634d8aacfcc19f.png",
+    "index.html": "/index.html",
+    "main.06c47980.css.map": "/static/css/main.06c47980.css.map",
+    "main.70c64d69.js.map": "/static/js/main.70c64d69.js.map"
   },
   "entrypoints": [
     "static/css/main.06c47980.css",
-    "static/js/main.58c157c9.js"
+    "static/js/main.70c64d69.js"
   ]
 }
