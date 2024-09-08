@@ -1,20 +1,18 @@
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 import '../../assets/styles/styles.css';
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function Navbar() {
-    const [menuOpen, setMenuOpen] = useState(false); // State to control menu visibility
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <nav className="navbar">
             <div className="menu">
-                {/* Hamburger menu icon */}
                 <RxHamburgerMenu
                     className="menu-btn"
-                    onClick={() => setMenuOpen(!menuOpen)} // Toggle menu state
-                    size={30} // Icon size
+                    onClick={() => setMenuOpen(!menuOpen)}
+                    size={30}
                     aria-label="Toggle menu"
                 />
                 <ul

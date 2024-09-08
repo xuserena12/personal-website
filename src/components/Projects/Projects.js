@@ -49,13 +49,15 @@ export default function Projects() {
             { threshold: 0.1 }
         );
 
-        if (projectContainerRef.current) {
-            observer.observe(projectContainerRef.current);
+        const currentRef = projectContainerRef.current;
+
+        if (currentRef) {
+            observer.observe(currentRef);
         }
 
         return () => {
-            if (projectContainerRef.current) {
-                observer.unobserve(projectContainerRef.current);
+            if (currentRef) {
+                observer.unobserve(currentRef);
             }
         };
     }, []);
