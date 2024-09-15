@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b181ba1e.css",
+    "main.css": "/static/css/main.62566525.css",
     "main.js": "/static/js/main.02eaf06c.js",
     "static/media/headshot.png": "/static/media/headshot.686485ab670a0324d5a7.png",
     "static/media/sunnysidediaries.png": "/static/media/sunnysidediaries.a67939441fe560d2b48d.png",
@@ -8,11 +8,11 @@
     "static/media/mraxolotyl.png": "/static/media/mraxolotyl.f7c640a69cd9e1754dec.png",
     "static/media/clientdex.png": "/static/media/clientdex.8781a0634d8aacfcc19f.png",
     "index.html": "/index.html",
-    "main.b181ba1e.css.map": "/static/css/main.b181ba1e.css.map",
+    "main.62566525.css.map": "/static/css/main.62566525.css.map",
     "main.02eaf06c.js.map": "/static/js/main.02eaf06c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b181ba1e.css",
+    "static/css/main.62566525.css",
     "static/js/main.02eaf06c.js"
   ]
 }
